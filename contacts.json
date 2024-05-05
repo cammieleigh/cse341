@@ -1,0 +1,21 @@
+{
+    "contact1": {
+        "firstName": "Justin",
+        "lastName": "Lee",
+        "email": "justinlee@314.com",
+        "faveColor": "blue",
+        "birthdate": "12/05/1998"
+    },"contact2": {
+        "firstName": "Samantha",
+        "lastName": "Wigington",
+        "email": "samwiggy@314.com",
+        "faveColor": "pink",
+        "birthdate": "02/04/2000"
+    },"contact3": {
+        "firstName": "Audrey",
+        "lastName": "Moncada",
+        "email": "audrey@314.com",
+        "faveColor": "purple",
+        "birthdate": "12/12/2000"
+    }
+}
