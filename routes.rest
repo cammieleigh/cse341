@@ -1,3 +1,32 @@
-GET http://localhost:8080/contacts
+# GET http://localhost:8080/contacts
 
-GET https://cse341-4jz0.onrender.com
+# ##get one contact
+
+# GET https://cse341-4jz0.onrender.com
+
+##create contact
+
+# POST http://localhost:8080/contacts HTTP/1.1 
+# content-type: application/json
+
+# {
+#     "firstName":"Coleton", 
+#     "lastName":"Peterson", 
+#     "email":"copeterson@email.com", 
+#     "faveColor":"Blue", 
+#     "birthdate":"07/02/1995"
+# }
+
+# PUT http://localhost:8080/contacts/663fa500c0de1ac9b4ba26da HTTP/1.1 
+# content-type: application/json
+
+# {
+#     "firstName":"Coleton", 
+#     "lastName":"Peterson", 
+#     "email":"cpeterson@314.com", 
+#     "faveColor":"Blue", 
+#     "birthdate":"07/02/1995"
+# }
+
+DELETE http://localhost:8080/contacts/663fa500c0de1ac9b4ba26da HTTP/1.1 
+content-type: application/json
